@@ -7,7 +7,8 @@ OpenQASM and the IBM Q experience (QX).
 
 **Note: This is an old version, and it needs version 1.4 of the IBMQuantumExperience API to work properly.
 It is being kept mainly for the sake of the file 'Battleships_Demo.py', which is not compatible with more recent versions.
-Some other things may also be here that aren't elsewhere, but they will be moved away**
+Some other things may also be here that aren't elsewhere, but they will be moved away
+--James**
 
 ## Philosophy
 
