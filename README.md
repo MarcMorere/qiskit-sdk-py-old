@@ -5,6 +5,10 @@
 Python software development kit (SDK) and Jupyter notebooks for working with
 OpenQASM and the IBM Q experience (QX).
 
+**Note: This is an old version, and it needs version 1.4 of the IBMQuantumExperience API to work properly.
+It is being kept mainly for the sake of the file 'Battleships_Demo.py', which is not compatible with more recent versions.
+Some other things may also be here that aren't elsewhere, but they will be moved away**
+
 ## Philosophy
 
 The basic concept of our quantum program is an array of quantum circuits. The program workflow consists of three stages: Build, Compile, and Run. Build allows you to make different quantum circuits that represent the problem you are solving; Compile allows you to rewrite them to run on different backends (simulators/real chips of different quantum volumes, sizes, fidelity, etc); and Run launches the jobs. After the jobs have been run, the data is collected. There are methods for putting this data together, depending on the program. This either gives you the answer you wanted or allows you to make a better program for the next instance.
